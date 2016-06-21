@@ -1,8 +1,7 @@
 # Example Weather app
 
 This is an example program GetWeatherData using the bare minimum java instalation
-* This app uses the FAA airport info API 
-* [services.faa.gov](http://services.faa.gov/docs/services/airport/)
+* This app uses the FAA airport info API [services.faa.gov](http://services.faa.gov/docs/services/airport/)
 
 
 # Build
