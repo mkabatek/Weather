@@ -39,7 +39,7 @@ public class GetWeatherData {
       //Set connection method to GET request
       conn.setRequestMethod("GET");
 
-      //Read the incomming stream
+      //Read the incoming stream
       BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
       String line;
       while ((line = rd.readLine()) != null) {
@@ -54,7 +54,7 @@ public class GetWeatherData {
    GetWeatherData(String AIRPORT_CODE) {
 
       try{
-         //create a new JSON object to parse incomming JSON string
+         //create a new JSON object to parse incoming JSON string
          JSONObject obj = new JSONObject(getHTML(AIRPORT_CODE));
          //Assign member variables for the weather data.
          Visibility = obj.getJSONObject("weather").getInt("visibility");
