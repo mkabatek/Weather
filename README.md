@@ -10,11 +10,11 @@ This is an example program GetWeatherData using the bare minimum java instalatio
 
 Compile the two sources make sure the json jar file is in the class path:
 
-## Linux
+#### Linux
 
 * javac -cp json-20160212.jar:. weather.java GetWeatherData.java
 
-## Windows
+#### Windows
 
 * javac -cp "json-20160212.jar;." weather.java GetWeatherData.java
 
@@ -22,14 +22,14 @@ Compile the two sources make sure the json jar file is in the class path:
 
 Run the program, make sure the json jar is in the class path, examples shown below:
 
-## Linux
+#### Linux
 
 * java -cp json-20160212.jar:. weather SFO
 * java -cp json-20160212.jar:. weather JFK
 * java -cp json-20160212.jar:. weather DEN
 
 
-## Windows
+#### Windows
 
 * java -cp "json-20160212.jar;." weather SFO
 * java -cp "json-20160212.jar;." weather JFK
